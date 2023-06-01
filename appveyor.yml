@@ -14,7 +14,8 @@ environment:
   - TOXENV: py310
 
 build: false
-
+script:
+- python3 ./2/some_app.py
 install:
   # - py --list
   # - py -m pip install --upgrade pip
